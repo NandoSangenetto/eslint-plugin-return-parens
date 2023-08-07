@@ -22,7 +22,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "eslint-enforce-return-parens/enforce-return-parens": "error"
+    "return-parens/return-parens": "error"
   }
 }
 ```
