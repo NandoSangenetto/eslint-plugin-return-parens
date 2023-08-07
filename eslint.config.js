@@ -1,6 +1,6 @@
 "use strict";
 
-const eslintPlugin = require("./eslint-plugin");
+const eslintPlugin = require("./eslint-plugin-return-parens");
 
 module.exports = [
   {
@@ -9,9 +9,9 @@ module.exports = [
       sourceType: "commonjs",
       ecmaVersion: "latest",
     },
-    plugins: {"keeta": eslintPlugin},
+    plugins: {"return-parens": eslintPlugin},
     rules: {
-      "keeta/eslint-enforce-return-parens": "error",
+      "return-parens/eslint-enforce-return-parens": "error",
     },
   }
 ]
