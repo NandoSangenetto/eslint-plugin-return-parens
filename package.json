@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-return-parens",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Nando Sangenetto <nandosangenetto+eslint@gmail.com>",
   "description": "Enforce return statements to have parens",
   "main": "index.js",

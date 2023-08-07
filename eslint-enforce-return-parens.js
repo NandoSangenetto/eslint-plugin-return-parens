@@ -12,6 +12,7 @@ module.exports = {
       return {
         ReturnStatement(node) {
           
+          if(!context.sourceCode) return;
           if(node.argument === null) return;
           
           const argument = context.sourceCode.getText(node.argument, 1, 1);
