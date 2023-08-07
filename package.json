@@ -1,0 +1,19 @@
+{
+  "name": "eslint-enforce-return-parens",
+  "version": "1.0.2",
+  "description": "Enforce return statements to have parens",
+  "main": "eslint-enforce-return-parens.js",
+  "scripts": {
+    "test": "node eslint-enforce-return-parens.test.js",
+    "lint": "eslint example.js"
+  },
+  "keywords": ["eslint", "eslintplugin", "eslint-plugin"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "8.46.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  }
+}
