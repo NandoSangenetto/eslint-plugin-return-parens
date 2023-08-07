@@ -2,7 +2,7 @@
 
 ## Installation
 
-Install `eslint-enforce-return-parens`:
+Install `eslint-plugin-return-parens`:
 ```bash
 $ npm install eslint-plugin-return-parens --save-dev
 ```
