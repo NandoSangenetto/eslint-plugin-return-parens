@@ -1,5 +1,33 @@
 # eslint-enforce-return-parens
 
+## Installation
+
+Install `eslint-enforce-return-parens`:
+```bash
+$ npm install eslint-plugin-return-parens --save-dev
+```
+
+## Usage
+
+Add `eslint-plugin-return-parens` to the plugins section of your `.eslintrc` configuration file.
+```json
+{
+  "plugins": [
+    "return-parens"
+  ]
+}
+```
+
+Then configure the rules you want to use under the rules section.
+```json
+{
+  "rules": {
+    "eslint-enforce-return-parens/enforce-return-parens": "error"
+  }
+}
+```
+
+
 ## Rule Details
 
 This rule enforces that a return statement is always surrounded by parentheses.
