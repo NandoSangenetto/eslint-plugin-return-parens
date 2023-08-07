@@ -1,16 +1,16 @@
 {
   "name": "eslint-plugin-return-parens",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Nando Sangenetto <nandosangenetto+eslint@gmail.com>",
   "description": "Enforce return statements to have parens",
-  "main": "eslint-enforce-return-parens.js",
+  "main": "index.js",
   "scripts": {
     "test": "node eslint-enforce-return-parens.test.js",
     "lint": "eslint src/**/*.js"
   },
   "keywords": ["eslint", "eslintplugin", "eslint-plugin"],
   "repository": "NandoSangenetto/eslint-plugin-return-parens",
-  "bugs": "https://github.com/NandoSangenetto/eslint-enforce-return-parens/issues",
+  "bugs": "https://github.com/NandoSangenetto/eslint-plugin-return-parens/issues",
   "license": "MIT",
   "devDependencies": {
     "eslint": "8.46.0"
