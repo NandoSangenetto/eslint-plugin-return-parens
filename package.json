@@ -9,7 +9,7 @@
     "lint": "eslint example.js"
   },
   "keywords": ["eslint", "eslintplugin", "eslint-plugin"],
-  "repository": "NandoSangenetto/eslint-enforce-return-parens",
+  "repository": "NandoSangenetto/eslint-plugin-return-parens",
   "bugs": "https://github.com/NandoSangenetto/eslint-enforce-return-parens/issues",
   "license": "MIT",
   "devDependencies": {
